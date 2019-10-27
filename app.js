@@ -25,12 +25,7 @@ app.get('/', function(req, res){
 	});
 });
 
-app.get('/about', function(req, res){
-	//res.send('About Page!');
-	res.render('about', {
-		
-	});
-});
+
 
 app.get('/contact', function(req, res){
 	//res.send('Contact!');
